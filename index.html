@@ -968,6 +968,25 @@
         <script src="assets/js/modal-video.min.js"></script>
         <script src="assets/js/main.js"></script>
 
+<script>
+(function () {
+    function hideNetlifyBadge() {
+        document.querySelectorAll('#nl-badge-frame, iframe[title="Powered by Netlify"]').forEach(function (el) {
+            el.style.setProperty('display', 'none', 'important');
+            el.style.setProperty('visibility', 'hidden', 'important');
+            el.style.setProperty('opacity', '0', 'important');
+        });
+    }
+
+    hideNetlifyBadge();
+
+    new MutationObserver(hideNetlifyBadge).observe(document.documentElement, {
+        childList: true,
+        subtree: true
+    });
+})();
+</script>
+
 </body>
 
 </html>
