@@ -1543,6 +1543,205 @@ display: flex;
 }
 
 
+.smsf-process-section {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.smsf-process-heading {
+    max-width: 980px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.smsf-process-heading h2 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.smsf-process-heading p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.smsf-process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.smsf-process-card {
+    position: relative;
+    padding: 32px 24px;
+    background: #fff;
+    border: 1px solid #f1e5dc;
+    border-radius: 12px;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+
+.smsf-process-card:hover {
+    transform: translateY(-6px);
+    border-color: #f2961b;
+    box-shadow: 0 12px 35px rgba(224, 92, 35, .09);
+}
+
+.smsf-process-number {
+    width: 53px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e05c23, #f2961b);
+    border-radius: 12px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.smsf-process-label {
+    display: block;
+    color: #e05c23;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+
+.smsf-process-card h3 {
+    font-size: 19px;
+    font-weight: 750;
+    line-height: 1.4;
+    color: #262626;
+    margin-bottom: 12px;
+}
+
+.smsf-process-card p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #686868;
+    margin: 0;
+}
+
+.smsf-process-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    background: linear-gradient(110deg, #e05c23, #f2961b);
+    border-radius: 12px;
+    padding: 30px 38px;
+    margin-top: 35px;
+}
+
+.smsf-process-cta h3 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.smsf-process-cta p {
+    color: #fff;
+    opacity: .9;
+    font-size: 16px;
+    margin: 0;
+}
+
+.smsf-process-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 23px;
+    background: #fff;
+    color: #e05c23;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: all .3s ease;
+}
+
+.smsf-process-btn:hover {
+    background: #292929;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .smsf-process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575px) {
+    .smsf-process-section {
+        padding: 60px 0;
+    }
+
+    .smsf-process-heading {
+        margin-bottom: 35px;
+    }
+
+    .smsf-process-heading h2 {
+        font-size: 29px;
+    }
+
+    .smsf-process-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .smsf-process-card {
+        padding: 25px 22px;
+    }
+
+    .smsf-process-cta {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 27px 22px;
+    }
+
+    .smsf-process-cta h3 {
+        font-size: 21px;
+    }
+
+    .smsf-process-btn {
+        white-space: normal;
+    }
+.contact-form-all {
+    padding: 45px 20px 30px 20px;
+}
+button.accordion-button.accordion-button3 {
+    padding: 16px;
+}
+.servicepageabout{
+    padding-top: 0!important;
+}
+}
+
+
+.gradientbg {
+    background: linear-gradient(
+        225deg,
+        #fce9df 0%,
+        #fff5ee 20%,
+        #fffaf7 50%,
+        #fff5ee 80%,
+        #fce9df 100%
+    );
+}
+.imgrad img{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 h2{
     color: #222!important;
     font-weight: 600!important;
