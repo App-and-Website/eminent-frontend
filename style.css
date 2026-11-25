@@ -3273,7 +3273,9 @@ button.accordion-button.accordion-button3 {
     line-height: 1.7;
     margin: 0;
 }
-
+.emw-hero-contentfaq p{
+    max-width: 1200px!important;
+}
 .emw-reporting-note {
     display: flex;
     gap: 13px;
@@ -3487,6 +3489,113 @@ button.accordion-button.accordion-button3 {
         width: 43px;
         height: 43px;
         font-size: 17px;
+    }
+}
+
+
+/* FAQ Layout */
+.fasqrow.emw-faq-layout {
+    row-gap: 20px;
+}
+
+.emw-faq-accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FAQ Category Heading */
+.emw-faq-category {
+    margin: 40px 0 0 0;
+}
+
+.emw-faq-category:first-child {
+    margin-top: 0;
+}
+
+.emw-faq-category h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #142d4c;
+    margin: 20px 0 20px 0;
+    padding-left: 13px;
+    border-left: 4px solid #f36b21;
+}
+
+/* Gradient Border */
+.emw-faq-item {
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(125deg, #f36b21 0%, #ffd2b5 45%, #014c8f 100%) border-box !important;
+    box-shadow: 0 3px 14px rgba(20, 45, 76, 0.045);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.emw-faq-item:hover {
+    box-shadow: 0 6px 20px rgba(20, 45, 76, 0.09);
+}
+
+/* FAQ Question */
+.emw-faq-item .accordion-button {
+    background: transparent;
+    color: #142d4c;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 17px 20px;
+    box-shadow: none;
+}
+
+.emw-faq-item .accordion-button:not(.collapsed) {
+    background: #fff8f3;
+    color: #e05c23;
+    box-shadow: none;
+}
+
+/* Accordion Icon */
+.emw-faq-item .accordion-button::after {
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+}
+
+/* FAQ Answer */
+.emw-faq-item .accordion-body {
+    color: #626d7b;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 0 20px 18px;
+    background: #fff8f3;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .fasqrow.emw-faq-layout {
+        row-gap: 20px;
+    }
+
+    .emw-faq-category {
+        margin-top: 22px;
+    }
+
+    .emw-faq-category h3 {
+        font-size: 17px;
+    }
+
+    .emw-faq-accordion {
+        gap: 11px;
+    }
+
+    .emw-faq-item .accordion-button {
+        padding: 15px 16px;
+        font-size: 14px;
+    }
+
+    .emw-faq-item .accordion-body {
+        padding: 0 16px 16px;
+        font-size: 13px;
     }
 }
 
