@@ -3520,6 +3520,19 @@ button.accordion-button.accordion-button3 {
     padding-left: 13px;
     border-left: 4px solid #f36b21;
 }
+.contact-page-box-icon img {
+    filter: brightness(0);
+}
+.contact-page-box {
+    padding: 30px 10px!important;
+}
+.contactpageimage img{
+   border-radius: 5px;
+}
+.mapctpage iframe{
+    border: 4px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 
 /* Gradient Border */
 .emw-faq-item {
@@ -3596,6 +3609,9 @@ button.accordion-button.accordion-button3 {
     .emw-faq-item .accordion-body {
         padding: 0 16px 16px;
         font-size: 13px;
+    }
+    .contact-page-all {
+        padding: 20px 0!important;
     }
 }
 
