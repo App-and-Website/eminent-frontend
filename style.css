@@ -3616,7 +3616,20 @@ button.accordion-button.accordion-button3 {
 }
 
 
-
+.blog1-hadding ul {
+    position: relative;
+    top: -50px;
+}
+.cwrap{
+    margin-top: -40px;
+}
+.cwrap h4{
+    margin-bottom: 10px;
+}
+.cwrap p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
 
 .secpaddhero{
     padding: 180px 0 70px 0;
